@@ -1,3 +1,76 @@
 <resources>
-    <string name="app_name">MyBaseProject</string>
+    <string name="app_name">SDK SES</string>
+    <string name="alert_thong_bao">Thông báo</string>
+    <string name="ERROR_INVALID_DATE">The time must be between %1$s and %2$s. Please select again.</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="alert_dong_y">Đồng ý</string>
+    <string name="bav_month_name_format">MMMM yyyy</string>
+    <string name="bav_day_name_format">EEE</string>
+    <string name="bav_day_of_week_vi">EEEEE</string>
+    <string name="bav_thang">Month</string>
+    <string name="bav_year">Year</string>
+    <string name="dsv_ex_msg_dont_set_lm">You should not set LayoutManager. Just don\'t call the method.</string>
+    <string name="error_at_server">Dịch vụ không thực hiện được trong lúc này.</string>
+    <string name="error_no_network">Quý khách vui lòng kiểm tra kết nối Internet/3G/Wifi</string>
+    <string name="error_cerpinning">Chứng chỉ kết nối không đúng, để đảm bảo an toàn cho dữ liệu xin quý khách vui lòng cập nhật phiên bản mới nhất từ Google Play để tiếp tục sử dụng dịch vụ</string>
+    <string name="not_found_location">Không có dữ liệu địa điểm nào được tìm thấy</string>
+    <string name="not_found_internet">Không tìm thấy kết nối internet</string>
+    <string name="ses_server_error">Lỗi hệ thống</string>
+    <string name="ses_not_data">Không có thông tin nào được trả về</string>
+    <string name="check_internet">Bạn vui lòng kiểm tra lại đường truyền nhé!</string>
+
+    <string name="vmb20_quan_dao_hoang_sa">Quần đảo Hoàng Sa</string>
+    <string name="vmb20_quan_dao_truong_sa">Quần đảo Trường Sa</string>
+
+    <string name="ses_delete">Xóa</string>
+    <string name="ses_no">Không</string>
+
+    <string name="ses_find_experience">Tìm kiếm trải nghiệm mới...</string>
+    <string name="ses_high_lights">Nổi bật</string>
+
+    <string name="ses_suggest">Gợi ý dành cho bạn</string>
+    <string name="ses_sort_by">Sắp xếp theo</string>
+    <string name="ses_popular">Phổ biến</string>
+    <string name="ses_by_word">Theo bảng chữ cái</string>
+    <string name="ses_nearest">Gần nhất</string>
+    <string name="ses_sale">Khuyến mại</string>
+    <string name="ses_filter_by">Lọc theo</string>
+    <string name="ses_field">Lĩnh vực</string>
+    <string name="ses_district">Quận huyện</string>
+    <string name="ses_distance_km">Khoảng cách (km)</string>
+    <string name="ses_status_door">Trạng thái mở cửa</string>
+    <string name="ses_place">Địa điểm</string>
+    <string name="ses_place_qrpay">Địa điểm chấp nhận QRPay</string>
+    <string name="ses_place_other">Địa điểm khác</string>
+    <string name="ses_place_hightlight">Địa điểm nổi bật</string>
+    <string name="ses_filter_search">Bộ lọc tìm kiếm</string>
+
+    <string name="ses_delete_confirm">Bạn có chắc chắn muốn xóa địa điểm này</string>
+
+    <string name="ses_recent_view">Xem gần đây</string>
+    <string name="ses_searched">Đã tìm</string>
+    <string name="ses_favorite">Yêu thích</string>
+    <string name="ses_search_result">Kết quả tìm kiếm</string>
+    <string name="ses_hanoi">Hà Nội</string>
+
+    <string name="ses_all">Tất cả</string>
+    <string name="ses_apply">Áp dụng</string>
+    <string name="ses_address_title">Address</string>
+
+
+    <string name="ses_text_province">Tỉnh thành</string>
+
+    <string name="time_format">Thứ %1$s, %2$s tháng %3$s, </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="maps_api_key">AIzaSyAELRF43orTt-lXrOvIhLNBOtjjjN_csak</string>
+    <string name="introduce">Giới thiệu</string>
+    <string name="promotion">Khuyến mại</string>
+    <string name="close_time">Đang đóng cửa</string>
+    <string name="open_time">Đang mở cửa</string>
+    <string name="request_location">Quý khách chưa thiết lập quyền định vị cho ứng dụng, xin vui lòng kiểm tra cài đặt và thử lại.</string>
+    <string name="home_cai_dat">Cài đặt</string>
+    <string name="location_map">Bản đồ địa điểm</string>
+    <string name="ses_accept_qrpay">Đơn vị chấp nhận thanh toán</string>
+    <string name="ses_not_searched">Quý khách chưa tìm kiếm từ khóa nào</string>
 </resources>

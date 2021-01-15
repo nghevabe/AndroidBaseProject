@@ -1,0 +1,7 @@
+<com.example.mybaseproject.ui.views.CircleProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/progressLoading"
+    android:layout_width="68dp"
+    android:layout_height="68dp"
+    app:progress_color="@color/colorPrimary"
+    app:progress_stoke_width="3dp" />

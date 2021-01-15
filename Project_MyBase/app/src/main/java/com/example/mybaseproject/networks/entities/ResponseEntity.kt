@@ -1,4 +1,4 @@
-package com.example.mybaseproject.ui.bases.entities
+package com.example.mybaseproject.networks.entities
 import com.google.gson.annotations.SerializedName
 
 /**

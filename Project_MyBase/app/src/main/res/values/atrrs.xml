@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Theme">
+        <attr name="backgroundTitleBar" format="reference" />
+        <attr name="backgroundSubmit" format="reference" />
+        <attr name="colorTouch" format="reference" />
+        <attr name="backgroundDeny" format="reference" />
+
+    </declare-styleable>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="inner_radius" format="dimension" />
+        <attr name="background_color" format="color" />
+        <attr name="progress_color" format="color" />
+        <attr name="progress_stoke_width" format="dimension" />
+        <attr name="show_arrow" format="boolean" />
+        <attr name="enable_circle_background" format="boolean" />
+        <attr name="arrow_width" format="dimension" />
+        <attr name="arrow_height" format="dimension" />
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+        android:id="@+id/items"
+    </declare-styleable>
+
+    <declare-styleable name="SesTextView">
+        <attr name="right" format="reference" />
+        <attr name="top" format="reference" />
+        <attr name="bottom" format="reference" />
+        <attr name="left" format="reference" />
+        <attr name="check" format="boolean" />
+        <attr name="tint" format="color" />
+        <attr name="background" format="reference" />
+        <attr name="html" format="string" />
+        <attr name="light" format="boolean" />
+        <attr name="cusfont" format="enum">
+            <enum name="Regular" value="0" />
+            <enum name="Bold" value="1" />
+            <enum name="Medium" value="2" />
+            <enum name="Italic" value="3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="GroupTextView">
+        <attr name="gr_hint" format="string" />
+        <attr name="gr_text" format="string" />
+        <attr name="gr_icon" format="reference" />
+        <attr name="gr_icon_pos" format="integer">
+            <flag name="bottom" value="80" />
+            <flag name="center" value="17" />
+            <flag name="center_horizontal" value="1" />
+            <flag name="center_vertical" value="16" />
+            <flag name="clip_horizontal" value="8" />
+            <flag name="clip_vertical" value="128" />
+            <flag name="end" value="8388613" />
+            <flag name="fill" value="119" />
+            <flag name="fill_horizontal" value="7" />
+            <flag name="fill_vertical" value="112" />
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+            <flag name="start" value="8388611" />
+            <flag name="top" value="48" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CPBEditText">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="CPBButton">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <attr name="typeface" format="enum">
+        <enum name="bold" value="0" />
+        <enum name="medium" value="1" />
+        <enum name="italic" value="2" />
+        <enum name="light" value="3" />
+    </attr>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="reverseMask" format="boolean" />
+        <attr name="roundedCorners">
+            <flag name="topLeft" value="8" />
+            <flag name="topRight" value="4" />
+            <flag name="bottomLeft" value="2" />
+            <flag name="bottomRight" value="1" />
+            <flag name="top" value="12" />
+            <flag name="bottom" value="3" />
+            <flag name="all" value="15" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="white" format="reference|color" />
+    <declare-styleable name="ShadowView">
+        <attr name="android:foreground" />
+        <attr name="shadowMargin" format="dimension" />
+        <attr name="shadowMarginTop" format="dimension" />
+        <attr name="shadowMarginLeft" format="dimension" />
+        <attr name="shadowMarginRight" format="dimension" />
+        <attr name="shadowMarginBottom" format="dimension" />
+        <attr name="cornerRadiusAll" format="dimension" />
+        <attr name="cornerRadiusTL" format="dimension" />
+        <attr name="cornerRadiusTR" format="dimension" />
+        <attr name="cornerRadiusBL" format="dimension" />
+        <attr name="cornerRadiusBR" format="dimension" />
+        <attr name="foregroundColor" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowDx" format="float" />
+        <attr name="shadowDy" format="float" />
+        <attr name="shadowRadius" format="dimension" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ShadowView_Layout">
+        <attr name="layout_gravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+            <flag name="center_vertical" value="0x10" />
+            <flag name="fill_vertical" value="0x70" />
+            <flag name="center_horizontal" value="0x01" />
+            <flag name="fill_horizontal" value="0x07" />
+            <flag name="center" value="0x11" />
+            <flag name="fill" value="0x77" />
+            <flag name="clip_vertical" value="0x80" />
+            <flag name="clip_horizontal" value="0x08" />
+            <flag name="start" value="0x00800003" />
+            <flag name="end" value="0x00800005" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CalendarPickerView">
+        <attr name="android:background" />
+        <attr name="tsquare_dividerColor" format="color" />
+        <attr name="tsquare_dayBackground" format="reference" />
+        <attr name="tsquare_dayTextColor" format="color" />
+        <attr name="tsquare_titleTextStyle" format="reference" />
+        <attr name="tsquare_displayHeader" format="boolean" />
+        <attr name="tsquare_displayDayNamesHeaderRow" format="boolean" />
+        <attr name="tsquare_headerTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="calendar_cell">
+        <attr name="tsquare_state_selectable" format="boolean" />
+        <attr name="tsquare_state_current_month" format="boolean" />
+        <attr name="tsquare_state_today" format="boolean" />
+        <attr name="tsquare_state_range_first" format="boolean" />
+        <attr name="tsquare_state_range_middle" format="boolean" />
+        <attr name="tsquare_state_range_last" format="boolean" />
+        <attr name="tsquare_state_highlighted" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DotsIndicator">
+        <attr name="dot_width" format="dimension" />
+        <attr name="dot_height" format="dimension" />
+        <attr name="dot_margin" format="dimension" />
+
+        <attr name="dot_drawable" format="reference" />
+        <attr name="dot_drawable_unselected" format="reference" />
+        <attr name="dot_tint" format="color" />
+
+        <attr name="dots_animator" format="reference" />
+        <attr name="dots_animator_reverse" format="reference" />
+
+        <attr name="dots_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <attr name="dots_gravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30" />
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50" />
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03" />
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05" />
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10" />
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70" />
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01" />
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07" />
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11" />
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77" />
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the vertical gravity: a top gravity will clip the bottom
+            edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80" />
+            <!-- Additional option that can be set to have the left and/or right edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the horizontal gravity: a left gravity will clip the right
+            edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08" />
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003" />
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="DiscreteScrollView">
+        <attr name="dsv_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

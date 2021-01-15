@@ -5,7 +5,7 @@ import android.util.Log
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
-//import com.vnpay.seslib.utils.extensions.setSafeOnClickListener
+import com.example.mybaseproject.utils.extensions.setSafeOnClickListener
 import java.lang.reflect.Field
 import java.lang.reflect.Method
 import java.util.ArrayList
@@ -16,7 +16,7 @@ import java.util.Arrays
  */
 
 class ParseViewer {
-/*
+
     fun bind(activity: Activity) {
 
         val fields = Arrays.asList(*activity.javaClass.declaredFields)
@@ -249,5 +249,5 @@ class ParseViewer {
         }
     }
 
- */
+
 }
