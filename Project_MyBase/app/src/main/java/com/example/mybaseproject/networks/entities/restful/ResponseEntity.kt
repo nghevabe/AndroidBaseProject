@@ -1,4 +1,4 @@
-package com.example.mybaseproject.networks.entities
+package com.example.mybaseproject.networks.entities.restful
 import com.google.gson.annotations.SerializedName
 
 /**

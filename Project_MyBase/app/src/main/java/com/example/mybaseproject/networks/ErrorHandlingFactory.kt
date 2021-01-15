@@ -1,7 +1,7 @@
 package com.example.mybaseproject.networks
 
 import android.text.TextUtils
-import com.example.mybaseproject.networks.entities.ResponseEntity
+import com.example.mybaseproject.networks.entities.restful.ResponseEntity
 import com.example.mybaseproject.utils.SesUIModel
 import com.example.mybaseproject.utils.extensions.safeLog
 import retrofit2.HttpException
